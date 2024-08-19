@@ -16,7 +16,7 @@ func (c LinuxCmd) Script(mode, file string) string {
 	if mode == "" {
 		mode = "bash"
 	}
-	return fmt.Sprintf("%s %s", mode, file)
+    return fmt.Sprintf("firejail --private %s %s", mode, file)
 }
 
 func (c LinuxCmd) ChangeDirTime(dir string) string {
