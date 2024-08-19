@@ -655,10 +655,6 @@
                       }}</span>
                     </el-row>
                     <el-row>
-                      <span>${PROJECT_SERVERS}: </span>
-                      <span>JSON format</span>
-                    </el-row>
-                    <el-row>
                       <span>${REPOSITORY_TYPE}: </span>
                       <span>{{
                         formData.repoType !== ''
@@ -1028,10 +1024,6 @@
                       <span>{{
                         formData.label !== '' ? formData.label : 'project.label'
                       }}</span>
-                    </el-row>
-                    <el-row>
-                      <span>${PROJECT_SERVERS}: </span>
-                      <span>JSON format</span>
                     </el-row>
                     <el-row>
                       <span>${REPOSITORY_TYPE}: </span>
